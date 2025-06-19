@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>¿Quién eres?</title>
+</head>
+<body>
+  <h2>¿Quién eres?</h2>
+  <input type="text" id="nombre" placeholder="Escribe tu nombre">
+  <button onclick="verificarNombre()">Enviar</button>
+
+  <script>
+    function verificarNombre() {
+      const nombre = document.getElementById("nombre").value.trim().toLowerCase();
+      if (nombre === "claudia") {
+        alert(" HOLAAAA TE AMOO ❤️!");
+      }
+    }
+  </script>
+</body>
+</html>
